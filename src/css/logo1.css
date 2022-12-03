@@ -1,4 +1,5 @@
-.sideimg{   
-  padding: 5px;
-  left:10px;
+.img{
+  position:absolute; 
+ left:100px; 
+margin-top: -10px;
 }

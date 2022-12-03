@@ -15,9 +15,9 @@ export default function App() {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <MDBNavbar expand='lg' light bgColor='light'>
+    <MDBNavbar expand='lg' light bgColor='white'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>Products</MDBNavbarBrand>
+        <MDBNavbarBrand >Products</MDBNavbarBrand>
         <MDBNavbarToggler
           type='button'
           aria-expanded='false'
@@ -29,15 +29,15 @@ export default function App() {
         <MDBCollapse navbar show={showNav}>
           <MDBNavbarNav>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#'>
+              <MDBNavbarLink active aria-current='page' >
               Rooms
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>News at Decor</MDBNavbarLink>
+              <MDBNavbarLink >News at Decor</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>Offers</MDBNavbarLink>
+              <MDBNavbarLink >Offers</MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>
